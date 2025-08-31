@@ -1,0 +1,21 @@
+# Node modules
+node_modules/
+frontend/node_modules/
+dashboard/node_modules/
+
+# Env files
+.env
+backend/.env
+frontend/.env
+dashboard/.env
+
+# Build / dist folders
+frontend/build/
+dashboard/build/
+
+# Cache
+dashboard/node_modules/.cache/
+
+# Logs and OS files
+*.log
+.DS_Store
