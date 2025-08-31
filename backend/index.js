@@ -236,9 +236,16 @@ app.post("/newOrder", async (req, res) => {
  res.send("Order saved!");
 });
 
+mongoose.connect(uri)
+  .then(() => {
+    console.log("✅ Database connected successfully");
 
-app.listen(PORT, () => {
-  console.log("App started!");
-  mongoose.connect(uri);
-  console.log("DB started!");
+    app.listen(PORT, () => {
+      console.log(` Server running on port ${PORT}`);
+    });
+  })
+  .catch((err) => {
+    console.error("❌ Database connection failed:", err.message);
+  
+
 });
