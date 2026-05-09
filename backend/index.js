@@ -17,9 +17,14 @@ const uri = process.env.MONGO_URL;
 
 const app = express();
 
+
 app.use(cors());
 app.use(bodyparser.json());
 
+
+app.get("/", (req, res) => {
+  res.send("Welcome to Stock Trading Platform");
+});
 
 
 app.get("/addHoldings", async (req, res) => {
