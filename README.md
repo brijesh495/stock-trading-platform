@@ -1,63 +1,35 @@
-📈 Stock Trading Platform
+# 📈 Stock Trading Platform — Zerodha Clone
 
-A full-stack web application that allows users to simulate stock trading, manage portfolios, and track market activity.
+A full-stack stock trading web application where users can simulate stock trading, manage portfolios, and track market activity.
 
----
+## 🔗 Live Demo
+- 🖥️ [Frontend](https://stock-trading-platform-lake.vercel.app)
+- 📊 [Dashboard](https://stock-trading-platform-lmdz.vercel.app)
+- ⚙️ [Backend API](https://stock-trading-platform-844w.onrender.com)
 
-🚀 Tech Stack
+## 🛠️ Tech Stack
+- **Frontend:** React.js
+- **Backend:** Node.js, Express.js
+- **Database:** MongoDB Atlas
+- **Authentication:** JWT
 
-- Frontend: React.js
-- Backend: Node.js, Express.js
-- Database: MongoDB
-
----
-
-✨ Features
-
+## ✨ Features
 - User Authentication (Login/Signup)
 - Buy & Sell Stocks
 - Portfolio Management
-- Dashboard
+- Real-time Dashboard
+- Market Activity Tracking
 
----
-
-📂 Project Structure
-
-- /frontend → React application
-- /backend → Node.js + Express API
-- /dashboard → Dashboard UI
-
----
-
-⚙️ Installation & Setup
-
-1. Clone the repository
-
+## ⚙️ Installation
+```bash
 git clone https://github.com/brijesh495/stock-trading-platform.git
 
-2. Install dependencies
+cd frontend && npm install && npm start
+cd backend && npm install && npm start
 
-cd frontend
-npm install
-
-cd ../backend
-npm install
-
-3. Run the project
-
-npm start
-
----
-
-🔐 Environment Variables
-
-Create a ".env" file in backend and add:
-
+## 🔐 Environment Variables
 MONGO_URL=your_mongodb_url
 JWT_SECRET=your_secret_key
 
----
-
-👨‍💻 Author
-
-Brijesh Maurya
+## 👨‍💻 Author
+Brijesh Maurya — GitHub: https://github.com/brijesh495 | LinkedIn: https://linkedin.com/in/brijesh-maurya-3762b72a3
